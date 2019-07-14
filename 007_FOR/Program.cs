@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace _007_FOR
 {
@@ -15,7 +11,7 @@ namespace _007_FOR
             Console.WriteLine("Enter second number");
             int secondNumber = Convert.ToInt32(Console.ReadLine());
             int sum = 0;
-            
+
 
             for (int i = firstNumber; i <= secondNumber; i++)
             {

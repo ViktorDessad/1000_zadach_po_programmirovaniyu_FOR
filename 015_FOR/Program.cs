@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _012_FOR
+namespace _015_FOR
 {
     class Program
     {
@@ -12,15 +12,14 @@ namespace _012_FOR
         {
             Console.WriteLine("Enter number N");
             double N = Convert.ToDouble(Console.ReadLine());
-            double sum = 1;
-            
-            for (double i = 1.0; i <= N; i +=0.1 )
+            int num = 2;
+            double res = 1;
+            for (int i = 1; i <= N; ++i)
             {
-                sum *= i;
+                res = res * num;
+                Console.WriteLine(res);
             }
-            Console.WriteLine(sum);
-                
-                
+            
         }
     }
 }
