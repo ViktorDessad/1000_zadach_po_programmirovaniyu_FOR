@@ -1,0 +1,3 @@
+# 1000_zadach_po_programmirovaniyu_FOR
+1000_zadach_po_programmirovaniyu_FOR
+Tasks fot Loops
